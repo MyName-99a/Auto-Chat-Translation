@@ -22,8 +22,6 @@ def change_languages():
 
     print("-"*80)
     print("")
-    # Clear the previous sentence
-    prev_sentence = ""
     src_language = input("Bitte geben Sie die Quellsprache ein (z.B. 'de' für Deutsch): ")
     dest_language = input("Bitte geben Sie die Zielsprache ein (z.B. 'en' für Englisch): ")
     convert_to_lowercase = input("Möchten sie den übersetzten Text immer in" + Fore.BLUE + "Kleinbuchstaben" + Style.RESET_ALL + " haben? (ja/nein): ")
